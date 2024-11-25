@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-purple-900 min-h-screen flex items-center justify-center">
+
+    <div class="bg-purple-400 p-6 rounded shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Lista de Tarefas</h1>
+        <p class="tex-lg">
+            Digite uma tarefa e clique em adicionar, sua tarefa será inserida na lista,
+            e ficará disponível para ser editada, excluida e concluida.
+        </p>
+
+        <form id="task-form" class="mb-4">
+            <input type="text" id="task-input" placeholder="Nova tarefa" class="border p-2 w-full mb-2" required>
+            <button type="submit" class="bg-blue-500 text-white p-2 w-full rounded">Adicionar Tarefa</button>
+        </form>
+        <h2 class="text-xl font-bold mt-6">Tarefas Vigêntes</h2>
+        <ul id="task-list" class="space-y-1"></ul>
+
+        <h2 class="text-xl font-bold mt-6">Tarefas Concluídas</h2>
+        <ul id="completed-task-list" class="space-y-2 mt-2"></ul>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
