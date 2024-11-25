@@ -22,3 +22,6 @@ localStorage. Elemento Delete (Excluir);
 da lista vigênte e, inserindo-a em uma nova lista de tarefas concuidas. Elemento Update (Concluir).
   * Utilizando o localStorage para salvar as tarefas, as tarefas deverão persistir 
 mesmo após o fechamento ou recarregamento da página. Persistência de Dados.
+
+  obs: para concluir uma tarefa, é necessaário um duplo clique sobre a tarefa desejada para que ela 
+  seja concluída, retirando-a da lista vigênte e colocado-a na lista concluida.
